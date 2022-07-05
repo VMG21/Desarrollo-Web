@@ -8,48 +8,46 @@ body {
   padding: 0;
 }
 
-header > h1{
-  display: flex;
-  justify-content: center;
-}
-
-.logo{
-  display: flex;
-  justify-content: center;
-}
-
 .logo > img {
   width: 50px;
 }
-/*
-.product{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-style: solid;
-}*/
 
-.navbar{
-  display: flex;
-  justify-content: flex-end;
-  background-color: rgb(182, 187, 187);
-  margin-bottom: 10px;
-  overflow: hidden;
-  transition: max-height .5s ease-out;
+@media (max-width: 767px) {
+  header > h1{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+  }
+  
+  .navbar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(182, 187, 187);
+    margin-bottom: 10px;
+  }
+  
+  .menu{
+    list-style:none;
+    display: none;
+  }
+  
+  .social{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+  }
 }
-
-.menu{
-  list-style:none;
-  display: none;
-}
-
-.social{
-  display: flex;
-  list-style: none;
-  justify-content: space-around;
-}
-
-
 
 @media (min-width: 768px) and (max-width: 1024px){
   header{
@@ -58,8 +56,32 @@ header > h1{
     justify-content: center;
   }
 
+  .navbar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(182, 187, 187);
+    margin-bottom: 10px;
+  }
+
   .logo{
     padding-right: 50px;
+  }
+
+  .product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu{
+    list-style:none;
+    display: none;
+  }
+
+  .social{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
   }
 }
 
@@ -69,9 +91,38 @@ header > h1{
     
   }
 
+  .logo{
+    padding-right: 50px;
+  }
+
+  header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(182, 187, 187);
+    margin-bottom: 10px;
+  }
+
   .product{
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .menu{
+    list-style:none;
+    display: flex;
+    
+  }
+
+  .social{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
   }
 }
