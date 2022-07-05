@@ -8,7 +8,30 @@ img{
     width: 100px;
 }
 
-.container{
-    padding-top: 50px;
+.item{
+    align-self: center;
+    text-align: justify;
 }
 
+p{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.container{
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    background: rgb(115,28,176);
+    background: linear-gradient(90deg, rgba(115,28,176,1) 0%, rgba(34,221,194,1) 35%, rgba(42,0,255,1) 100%);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: medium;
+}
