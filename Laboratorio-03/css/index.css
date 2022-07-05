@@ -88,7 +88,7 @@ body {
 @media (min-width: 1025px){
   main{
     display: flex;
-    
+    justify-content: space-around;
   }
 
   .logo{
@@ -112,6 +112,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-style:ridge;
+    text-justify: inter-word;
+    text-align: justify;
   }
 
   .menu{
