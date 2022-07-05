@@ -1,0 +1,14 @@
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    width: 100px;
+}
+
+.container{
+    padding-top: 50px;
+}
+
