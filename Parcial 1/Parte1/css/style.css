@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+body{
+   background-color: antiquewhite;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 20%;
+    border-style: double;
+}
+
+.cita{
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    font-weight: bold;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.timeline{
+    display: flex;
+    align-items: left;
+    flex-direction: column-reverse;
+}
+
+footer{
+    display: flex;
+    justify-content: right;
+    align-content: flex-end;
+}
